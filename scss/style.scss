@@ -1,10 +1,12 @@
 body{
     margin: 0;
     padding: 0;
+    font-family:r;
     
 }
 $head1-color: white;
 $img-size:100px;
+$red-color:#ff5d5d;
 @mixin transform($property) {
     -webkit-transform: $property;
     -ms-transform: $property;
@@ -31,7 +33,7 @@ li a{
 
 %botton{
     width: 150px;
-    border: 1px solid red;
+    border: 1px solid $red-color;
     padding: 10px;
     font-size: 18px;
     color: white;
@@ -71,7 +73,7 @@ li a{
 // head1 stop
 
 .navbar{
-    background: red ;
+    background:$red-color ;
 }
 .nav-item{
     padding-left: 15px;
@@ -127,7 +129,7 @@ li a{
 }
 .button1 {
     @extend %botton;
-    background-color: red ;
+    background-color: $red-color ;
     
    }
 .button2 {
@@ -160,7 +162,7 @@ li a{
 }   
 .button3{
     @extend %botton;
-    background-color: red;
+    background-color: $red-color;
     margin: 15px 0;
 }
 // services area
@@ -171,7 +173,7 @@ li a{
     padding: 10px 0; 
 }
 .text_2{
-    border-top: 3px solid red;
+    border-top: 3px solid $red-color;
     width: 200px;
     margin: 0 auto;
 }
@@ -196,7 +198,7 @@ li a{
 .button4{
     @extend %botton;
     text-align: center;
-    background-color: red;
+    background-color: $red-color;
     margin-left: 50%;
     @include transform(translateX(-50%));
     
@@ -316,7 +318,7 @@ li a{
     padding: 15px 12px;
     border-radius: 0 !important;
     text-align: center;
-    background-color: red;
+    background-color: $red-color;
     min-width: 30%;
 }
 

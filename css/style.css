@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'roboto';
+  font-family: r;
 }
 
 h1 {
@@ -25,7 +25,7 @@ li a {
 
 .button4, .button3, .button2, .button1 {
   width: 150px;
-  border: 1px solid red;
+  border: 1px solid #ff5d5d;
   padding: 10px;
   font-size: 18px;
   color: white;
@@ -66,7 +66,7 @@ li a {
 }
 
 .navbar {
-  background: red;
+  background: #ff5d5d;
 }
 
 .nav-item {
@@ -128,7 +128,7 @@ li a {
 }
 
 .button1 {
-  background-color: red;
+  background-color: #ff5d5d;
 }
 
 .button2 {
@@ -144,7 +144,7 @@ li a {
 }
 
 .about1 {
-  padding: 33px 0;
+  padding: 37px 0;
   width: 80%;
   height: 500px;
   background-color: #3c4858;
@@ -163,7 +163,7 @@ li a {
 }
 
 .button3 {
-  background-color: red;
+  background-color: #ff5d5d;
   margin: 15px 0;
 }
 
@@ -176,7 +176,7 @@ li a {
 }
 
 .text_2 {
-  border-top: 3px solid red;
+  border-top: 3px solid #ff5d5d;
   width: 200px;
   margin: 0 auto;
 }
@@ -203,7 +203,7 @@ li a {
 
 .button4 {
   text-align: center;
-  background-color: red;
+  background-color: #ff5d5d;
   margin-left: 50%;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -332,7 +332,7 @@ li a {
   padding: 15px 12px;
   border-radius: 0 !important;
   text-align: center;
-  background-color: red;
+  background-color: #ff5d5d;
   min-width: 30%;
 }
 
